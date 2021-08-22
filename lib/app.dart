@@ -4,7 +4,6 @@ import 'package:ubuni_phone_app/screens/splashScreen.dart';
 import 'package:ubuni_phone_app/theme.dart';
 import 'package:ubuni_phone_app/views/FirstView.dart';
 import 'package:ubuni_phone_app/views/homeView.dart';
-import 'package:ubuni_phone_app/views/secondView.dart';
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       routes: {
         homeView: (_) => const HomeView(),
         firstView: (_) => const FirstView(),
-        secondView: (_) => const SecondView()
+        // secondView: (_) => const SecondView()
         }
     );
   }

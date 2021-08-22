@@ -5,7 +5,7 @@ import 'package:ubuni_phone_app/constant/constant.dart';
 import 'package:ubuni_phone_app/views/homeView.dart';
 
 class SplashScreen extends StatefulWidget {
-  const SplashScreen({ Key? key }) : super(key: key);
+  const SplashScreen({ Key key }) : super(key: key);
 
   @override
   _SplashScreenState createState() => _SplashScreenState();

@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 
 const appName = 'Mobile Selling Shop';
 
+const allPhoneApi = 'https://www.paa.ubuni.co.tz/phones';
+
 
 const primaryColor = Color(0xFF006064);
 const secondaryColor = Color(0xFF95A1AC);
